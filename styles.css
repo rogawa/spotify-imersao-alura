@@ -1,5 +1,6 @@
 body {
-    background-color: grey;
+    background-color: #000;
+
 }
 
 .sidebar {
@@ -39,6 +40,22 @@ body {
 }
 
 .sidebar__navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__library {
+    margin-top: 5px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__library a {
+    padding: 0 20px 10px 20px;
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
